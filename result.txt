@@ -1,0 +1,89 @@
+Mismatched variables:
+
+Value | variables_new.txt | variables.txt
+basedir | /usr | /usr/
+binlog_checksum | CRC32 | NONE
+binlog_format | MIXED | STATEMENT
+character_set_client | utf8mb4 | utf8
+character_set_connection | utf8mb4 | utf8
+character_set_database | utf8mb4 | utf8
+character_set_results | utf8mb4 | utf8
+character_set_server | utf8mb4 | utf8
+collation_connection | utf8mb4_general_ci | utf8_general_ci
+collation_database | utf8mb4_general_ci | utf8_general_ci
+collation_server | utf8mb4_general_ci | utf8_general_ci
+group_concat_max_len | 1048576 | 1024
+gtid_binlog_pos |  | 0-3473844-378728459
+gtid_binlog_state |  | 0-3473887-1588,0-3473844-378728459
+gtid_current_pos |  | 0-3473844-378728459
+have_openssl | NO | YES
+have_symlink | YES | DISABLED
+host_cache_size | 279 | 648
+innodb_buffer_pool_dump_at_shutdown | ON | OFF
+innodb_buffer_pool_dump_pct | 25 | 100
+innodb_buffer_pool_instances | 8 | 4
+innodb_buffer_pool_load_at_startup | ON | OFF
+innodb_checksum_algorithm | crc32 | INNODB
+innodb_default_row_format | dynamic | compact
+innodb_file_format |  | Antelope
+innodb_flush_method | fsync | 
+innodb_large_prefix |  | OFF
+innodb_log_buffer_size | 16777216 | 8388608
+innodb_log_file_size | 50331648 | 536870912
+innodb_max_dirty_pages_pct_lwm | 0.000000 | 0.001000
+innodb_open_files | 2000 | 7727
+innodb_purge_threads | 4 | 1
+innodb_spin_wait_delay | 4 | 6
+innodb_strict_mode | ON | OFF
+innodb_undo_directory | ./ | .
+innodb_use_atomic_writes | ON | OFF
+innodb_version | 10.3.31 | 5.6.47-87.0
+interactive_timeout | 28800 | 30
+join_buffer_size | 40555520 | 2097152
+key_buffer_size | 8388608 | 33554432
+lc_messages_dir | /usr/share/mysql | 
+lock_wait_timeout | 86400 | 31536000
+log_bin | OFF | ON
+log_bin_basename |  | /var/lib/mysql/mysql-bin
+log_bin_index |  | /var/lib/mysql/mysql-bin.index
+log_slow_admin_statements | ON | OFF
+log_slow_filter | admin,filesort,filesort_on_disk,filesort_priority_queue,full_join,full_scan,query_cache,query_cache_miss,tmp_table,tmp_table_on_disk | admin,filesort,filesort_on_disk,full_join,full_scan,query_cache,query_cache_miss,tmp_table,tmp_table_on_disk
+log_slow_slave_statements | ON | OFF
+max_allowed_packet | 16777216 | 524288000
+max_binlog_size | 1073741824 | 104857600
+max_connections | 151 | 900
+max_heap_table_size | 3244294144 | 268435456
+max_long_data_size | 16777216 | 524288000
+max_relay_log_size | 1073741824 | 104857600
+max_user_connections | 0 | 450
+myisam_recover_options | BACKUP,QUICK | DEFAULT
+net_buffer_length | 16384 | 65536
+old_alter_table | DEFAULT | OFF
+optimizer_switch | index_merge=on,index_merge_union=on,index_merge_sort_union=on,index_merge_intersection=on,index_merge_sort_intersection=off,engine_condition_pushdown=off,index_condition_pushdown=on,derived_merge=on,derived_with_keys=on,firstmatch=on,loosescan=on,materialization=on,in_to_exists=on,semijoin=on,partial_match_rowid_merge=on,partial_match_table_scan=on,subquery_cache=on,mrr=off,mrr_cost_based=off,mrr_sort_keys=off,outer_join_with_cache=on,semijoin_with_cache=on,join_cache_incremental=on,join_cache_hashed=on,join_cache_bka=on,optimize_join_buffer_size=off,table_elimination=on,extended_keys=on,exists_to_in=on,orderby_uses_equalities=on,condition_pushdown_for_derived=on,split_materialized=on | index_merge=on,index_merge_union=on,index_merge_sort_union=on,index_merge_intersection=on,index_merge_sort_intersection=off,engine_condition_pushdown=off,index_condition_pushdown=on,derived_merge=on,derived_with_keys=on,firstmatch=on,loosescan=on,materialization=on,in_to_exists=on,semijoin=on,partial_match_rowid_merge=on,partial_match_table_scan=on,subquery_cache=on,mrr=off,mrr_cost_based=off,mrr_sort_keys=off,outer_join_with_cache=on,semijoin_with_cache=on,join_cache_incremental=on,join_cache_hashed=on,join_cache_bka=on,optimize_join_buffer_size=off,table_elimination=on,extended_keys=on,exists_to_in=on,orderby_uses_equalities=off
+performance_schema_max_stage_classes | 160 | 150
+performance_schema_max_statement_classes | 200 | 178
+pid_file | /run/mysqld/mysqld.pid | /var/run/mysqld/mysqld.pid
+plugin_dir | /usr/lib/x86_64-linux-gnu/mariadb19/plugin/ | /usr/lib/mysql/plugin/
+plugin_maturity | gamma | unknown
+query_cache_limit | 1048576 | 4194304
+query_cache_size | 16777216 | 134217728
+query_cache_type | ON | DEMAND
+read_buffer_size | 131072 | 524288
+read_rnd_buffer_size | 262144 | 524288
+replicate_annotate_row_events | ON | OFF
+server_id | 1 | 3473844
+slave_net_timeout | 60 | 3600
+socket | /run/mysqld/mysqld.sock | /var/run/mysqld/mysqld.sock
+sort_buffer_size | 2097152 | 1048576
+sql_mode | STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION | NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+table_open_cache | 2000 | 7727
+thread_cache_size | 151 | 128
+thread_pool_max_threads | 65536 | 1000
+thread_pool_size | 32 | 16
+thread_stack | 299008 | 262144
+tmp_table_size | 3244294144 | 268435456
+version | 10.3.31-MariaDB-0+deb10u1 | 10.1.45-MariaDB-1~stretch
+version_comment | Debian10 | mariadb.orgbinarydistribution
+version_malloc_library | system | systemjemalloc
+version_ssl_library | YaSSL2.4.4 | OpenSSL1.0.2u20Dec2019
+wait_timeout | 28800 | 240
